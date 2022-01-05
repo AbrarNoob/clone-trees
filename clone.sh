@@ -13,7 +13,8 @@
    
    #replace source files
      #rm -rf vendor/qcom/opensource/vibrator
-     
+      rm -rf device/qcom/sepolicy-legacy-um
+
    #clone files
      #git clone https://github.com/AbrarNoob/platform_vendor_qcom_opensource_vibrator -b 12 vendor/qcom/opensource/vibrator
       git clone https://github.com/AbrarNoob/device_qcom_sepolicy-legacy-um -b 12 device/qcom/sepolicy-legacy-um
