@@ -19,7 +19,7 @@
    #clone files
      #git clone https://github.com/AbrarNoob/platform_vendor_qcom_opensource_vibrator -b 12 vendor/qcom/opensource/vibrator
      #git clone https://github.com/AbrarNoob/platform_device_qcom_sepolicy-legacy-um -b 13 device/qcom/sepolicy-legacy-um
-      git clone https://github.com/AbrarNoob/platform_system_sepolicy-b test system/sepolicy
+      git clone https://github.com/AbrarNoob/platform_system_sepolicy -b test system/sepolicy
 
    #clone_clang
      #git clone https://github.com/kdrag0n/proton-clang -b master prebuilts/clang/host/linux-x86/clang-proton --depth=1
