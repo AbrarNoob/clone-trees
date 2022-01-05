@@ -7,31 +7,23 @@
      #rm -rf hardware/qcom-caf/msm8996/media
    
    #remove_old_trees
-     rm -rf device/xiaomi/onclite
-     #rm -rf vendor/xiaomi/onclite
-     #rm -rf kernel/xiaomi/onclite 
+     rm -rf device/xiaomi/lavender
+     rm -rf vendor/xiaomi/lavender
+     rm -rf kernel/xiaomi/lavender
    
    #replace source files
-     #rm -rf device/qcom/sepolicy_vndr
-     #rm -rf device/qcom/sepolicy-legacy-um
-     #rm -rf device/qcom/sepolicy
-     #rm -rf external/selinux
-     #rm -rf system/sepolicy
+     rm -rf vendor/qcom/opensource/vibrator
      
    #clone files
-     #git clone https://github.com/afterallafk/device_qcom_sepolicy_vndr.git -b 12 device/qcom/sepolicy_vndr
-     #git clone https://github.com/afterallafk/device_qcom_sepolicy-legacy-um.git -b 12 device/qcom/sepolicy-legacy-um
-     #git clone https://github.com/afterallafk/device_qcom_sepolicy.git -b 12 device/qcom/sepolicy
-     #git clone https://github.com/afterallafk/android_external_selinux.git -b 12 external/selinux
-     #git clone https://github.com/afterallafk/system_sepolicy.git -b 12 system/sepolicy
-   
+     git clone https://github.com/AbrarNoob/platform_vendor_qcom_opensource_vibrator -b 12 vendor/qcom/opensource/vibrator
+     git clone https://github.com/AbrarNoob/device_qcom_sepolicy-legacy-um device/qcom/sepolicy-legacy-um
+
    #clone_HALS
-     #git clone https://github.com/afterallafk/android_hardware_qcom_display.git -b lineage-18.1-caf-msm8996 hardware/qcom-caf/msm8996/display
-     #git clone https://github.com/afterallafk/hardware_qcom-caf_msm8996_audio.git -b twelve hardware/qcom-caf/msm8996/audio
-     #git clone https://github.com/afterallafk/hardware_qcom-caf_msm8996_media.git -b twelve hardware/qcom-caf/msm8996/media
-     #git clone https://github.com/afterallafk/hardware_qcom-caf_wlan.git -b twelve hardware/qcom-caf/wlan
+     git clone https://github.com/AbrarNoob/android_hardware_qcom_media -b 12 hardware/qcom-caf/msm8998/media
+     git clone https://github.com/AbrarNoob/android_hardware_qcom_audio -b 12 hardware/qcom-caf/msm8998/audio
+     git clone https://github.com/AbrarNoob/android_hardware_qcom_display -b 12 hardware/qcom-caf/msm8998/display
     
     #clone_trees
-     git clone https://github.com/afterallafk/voltage_device_xiaomi_onclite.git -b 12 device/xiaomi/onclite
-     #git clone https://github.com/afterallafk/vendor_xiaomi_onclite-12.git -b twelve vendor/xiaomi/onclite
-     #git clone https://github.com/afterallafk/kernel_xiaomi_onclite.git -b twelve kernel/xiaomi/onclite
+     git clone https://github.com/AbrarNoob/device_xiaomi_lavender-S -b syb device/xiaomi/lavender
+     git clone https://github.com/AbrarNoob/android_vendor_xiaomi_lavender-S -b evo vendor/xiaomi/lavender
+     git clone https://github.com/stormbreaker-project/kernel_xiaomi_lavender -b oldcam-eas kernel/xiaomi/lavender
