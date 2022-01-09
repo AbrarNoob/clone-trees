@@ -12,7 +12,7 @@
 
    #replace source files
      #rm -rf device/qcom/sepolicy-legacy-um
-     #rm -rf prebuilts/clang/host/linux-x86/clang-proton
+     rm -rf prebuilts/clang/host/linux-x86/clang-proton
 
    #clone files
      #git clone https://github.com/AbrarNoob/platform_vendor_qcom_opensource_vibrator -b 12 vendor/qcom/opensource/vibrator
