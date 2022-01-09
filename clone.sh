@@ -7,8 +7,8 @@
    
    #remove_old_trees
       rm -rf device/xiaomi/lavender
-      rm -rf vendor/xiaomi/lavender
-      rm -rf kernel/xiaomi/lavender
+     #rm -rf vendor/xiaomi/lavender
+     #rm -rf kernel/xiaomi/lavender
 
    #replace source files
      #rm -rf device/qcom/sepolicy-legacy-um
@@ -29,5 +29,5 @@
     
     #clone_trees
       git clone https://github.com/AbrarNoob/device_xiaomi_lavender-S -b arc device/xiaomi/lavender
-      git clone https://github.com/AbrarNoob/android_vendor_xiaomi_lavender-S -b evo vendor/xiaomi/lavender
-      git clone https://github.com/stormbreaker-project/kernel_xiaomi_lavender -b oldcam-eas kernel/xiaomi/lavender
+      #git clone https://github.com/AbrarNoob/android_vendor_xiaomi_lavender-S -b evo vendor/xiaomi/lavender
+      #git clone https://github.com/stormbreaker-project/kernel_xiaomi_lavender -b oldcam-eas kernel/xiaomi/lavender
