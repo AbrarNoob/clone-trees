@@ -16,7 +16,7 @@
 
    #clone files
      #git clone https://github.com/AbrarNoob/platform_vendor_qcom_opensource_vibrator -b 12 vendor/qcom/opensource/vibrator
-      git clone https://github.com/VoltageOS/device_qcom_sepolicy-legacy-um -b 12 device/qcom/sepolicy-legacy-um
+     #git clone https://github.com/VoltageOS/device_qcom_sepolicy-legacy-um -b 12 device/qcom/sepolicy-legacy-um
      #git clone https://github.com/AbrarNoob/platform_system_sepolicy -b test system/sepolicy
 
    #clone_clang
