@@ -19,7 +19,7 @@
 
      #git clone https://github.com/AbrarNoob/platform_vendor_qcom_opensource_vibrator -b 12 vendor/qcom/opensource/vibrator
       git clone https://github.com/VoltageOS/device_qcom_sepolicy-legacy-um -b 12 device/qcom/sepolicy-legacy-um
-      git clone https://github.com/Spark-Rom/system_sepolicy/tree/spark -b spark system/sepolicy
+      git clone https://github.com/Spark-Rom/system_sepolicy -b spark system/sepolicy
 
    #clone_clang
      git clone https://github.com/kdrag0n/proton-clang -b master prebuilts/clang/host/linux-x86/clang-proton --depth=1
