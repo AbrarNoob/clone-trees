@@ -21,7 +21,7 @@
       #git clone https://github.com/AbrarNoob/android_frameworks_base -b 11 frameworks/base
       #git clone https://github.com/AbrarNoob/android_vendor_banana -b 11 vendor/banana
       #git clone https://github.com/Octavi-OS/platform_packages_apps_Dialer -b 11 packages/apps/Dialer
-       git clone https://github.com/Lucifer-morning-star-96/corvus_xiaomiParts -b 4.4-kernel vendor/XiaomiParts
+      #git clone https://github.com/Lucifer-morning-star-96/corvus_xiaomiParts -b 4.4-kernel vendor/XiaomiParts
 
    #clone_clang
       #git clone https://github.com/kdrag0n/proton-clang -b master prebuilts/clang/host/linux-x86/clang-proton --depth=1
