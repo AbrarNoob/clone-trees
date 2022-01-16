@@ -33,5 +33,5 @@
     
     #clone_trees
       git clone https://github.com/AbrarNoob/device_xiaomi_lavender-S -b voltage device/xiaomi/lavender
-      git clone https://github.com/AbrarNoob/android_vendor_xiaomi_lavender-S -b eleven vendor/xiaomi/lavender
+      git clone https://github.com/AbrarNoob/android_vendor_xiaomi_lavender-S -b twelve vendor/xiaomi/lavender
       git clone https://github.com/stormbreaker-project/kernel_xiaomi_lavender -b oldcam-eas kernel/xiaomi/lavender
