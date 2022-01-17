@@ -1,13 +1,13 @@
 #!/bin/bash
 
   #remove_HALS
-     rm -rf hardware/qcom-caf/msm8998/audio
-     rm -rf hardware/qcom-caf/msm8998/display
-     rm -rf hardware/qcom-caf/msm8998/media
+     #rm -rf hardware/qcom-caf/msm8998/audio
+     #rm -rf hardware/qcom-caf/msm8998/display
+     #rm -rf hardware/qcom-caf/msm8998/media
    
    #remove_old_trees
-     rm -rf device/xiaomi/lavender
-     rm -rf vendor/xiaomi/lavender
+     #rm -rf device/xiaomi/lavender
+     #rm -rf vendor/xiaomi/lavender
      rm -rf kernel/xiaomi/lavender
 
    #replace source files
@@ -27,11 +27,11 @@
       #git clone https://github.com/kdrag0n/proton-clang -b master prebuilts/clang/host/linux-x86/clang-proton --depth=1
 
    #clone_HALS
-     git clone https://github.com/AbrarNoob/android_hardware_qcom_media -b 12 hardware/qcom-caf/msm8998/media
-     git clone https://github.com/AbrarNoob/android_hardware_qcom_audio -b 12 hardware/qcom-caf/msm8998/audio
-     git clone https://github.com/AbrarNoob/android_hardware_qcom_display -b 12 hardware/qcom-caf/msm8998/display
+     #git clone https://github.com/AbrarNoob/android_hardware_qcom_media -b 12 hardware/qcom-caf/msm8998/media
+     #git clone https://github.com/AbrarNoob/android_hardware_qcom_audio -b 12 hardware/qcom-caf/msm8998/audio
+     #git clone https://github.com/AbrarNoob/android_hardware_qcom_display -b 12 hardware/qcom-caf/msm8998/display
     
     #clone_trees
-      git clone https://github.com/AbrarNoob/device_xiaomi_lavender-S -b voltage device/xiaomi/lavender
-      git clone https://github.com/AbrarNoob/android_vendor_xiaomi_lavender-S -b twelve vendor/xiaomi/lavender
-      git clone https://github.com/stormbreaker-project/kernel_xiaomi_lavender -b oldcam-eas kernel/xiaomi/lavender
+      #git clone https://github.com/AbrarNoob/device_xiaomi_lavender-S -b voltage device/xiaomi/lavender
+      #git clone https://github.com/AbrarNoob/android_vendor_xiaomi_lavender-S -b twelve vendor/xiaomi/lavender
+      git clone https://github.com/okta-10/mystic_kernel_sdm660-4.4 -b Mystic-4.4 kernel/xiaomi/lavender
