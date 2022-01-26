@@ -12,9 +12,10 @@
 
    #replace source files
       #rm -rf vendor/banana
-      rm -rf prebuilts/clang/host/linux-x86/clang-proton
+       rm -rf prebuilts/clang/host/linux-x86/clang-proton
       #rm -rf packages/apps/Dialer
       #rm -rf frameworks/base
+       rm -rf external/ant-wireless/antradio-library  
 
    #clone files
 
