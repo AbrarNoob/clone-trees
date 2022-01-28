@@ -37,6 +37,3 @@
       git clone https://github.com/AbrarNoob/device_xiaomi_lavender-S -b ancb device/xiaomi/lavender
       #git clone https://github.com/AbrarNoob/android_vendor_xiaomi_lavender-S -b twelve vendor/xiaomi/lavender
       #git clone https://github.com/AbrarNoob/android_kernel_xiaomi_lavender-LTO -b eas kernel/xiaomi/lavender
-
-    #Lawnchair
-      export FORCE_LAWNCHAIR=true
