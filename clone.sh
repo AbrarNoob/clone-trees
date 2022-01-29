@@ -8,7 +8,7 @@
    #remove_old_trees
       rm -rf device/xiaomi/lavender
       #rm -rf vendor/xiaomi/lavender
-      rm -rf kernel/xiaomi/lavender
+      #rm -rf kernel/xiaomi/lavender
 
    #replace source files
       #rm -rf vendor/banana
@@ -36,4 +36,4 @@
     #clone_trees
       git clone https://github.com/AbrarNoob/device_xiaomi_lavender-S-1 -b main device/xiaomi/lavender
       #git clone https://github.com/AbrarNoob/android_vendor_xiaomi_lavender-S -b twelve vendor/xiaomi/lavender
-      git clone https://github.com/Lucifer-morning-star-96/kernel-xiaomi-lavender -b main kernel/xiaomi/lavender
+      #git clone https://github.com/Lucifer-morning-star-96/kernel-xiaomi-lavender -b main kernel/xiaomi/lavender
