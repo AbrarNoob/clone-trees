@@ -34,6 +34,6 @@
      #git clone https://github.com/AbrarNoob/android_hardware_qcom_display -b 12 hardware/qcom-caf/msm8998/display
     
     #clone_trees
-      git clone https://github.com/AbrarNoob/device_xiaomi_lavender-S -b twelve device/xiaomi/lavender
+      git clone https://github.com/AbrarNoob/device_xiaomi_lavender-S -b twelve1 device/xiaomi/lavender
       #git clone https://github.com/AbrarNoob/android_vendor_xiaomi_lavender-S -b twelve vendor/xiaomi/lavender
       #git clone https://github.com/AbrarNoob/kernel_xiaomi_lavender -b qti-oldcam-eas kernel/xiaomi/lavender
