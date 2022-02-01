@@ -35,5 +35,5 @@
     
     #clone_trees
       git clone https://github.com/AbrarNoob/device_xiaomi_lavender-S -b ancient device/xiaomi/lavender
-      #git clone https://github.com/ImPrashantt/vendor_xiaomi_lavender -b stag vendor/xiaomi/lavender
+      git clone https://github.com/ImPrashantt/vendor_xiaomi_lavender -b stag vendor/xiaomi/lavender
       #git clone https://github.com/MukulSharma06175/kernel-xiaomi-lavender -b main kernel/xiaomi/lavender
