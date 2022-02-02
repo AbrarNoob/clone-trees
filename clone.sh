@@ -6,8 +6,8 @@
      #rm -rf hardware/qcom-caf/msm8998/media
    
    #remove_old_trees
-      #rm -rf device/xiaomi/lavender
-      rm -rf vendor/xiaomi/lavender
+      rm -rf device/xiaomi/lavender
+      #rm -rf vendor/xiaomi/lavender
       #rm -rf kernel/xiaomi/lavender
 
    #replace source files
@@ -34,6 +34,6 @@
      #git clone https://github.com/AbrarNoob/android_hardware_qcom_display -b 12 hardware/qcom-caf/msm8998/display
     
     #clone_trees
-      #git clone https://github.com/AbrarNoob/device_xiaomi_lavender-S -b ancient device/xiaomi/lavender
-      git clone https://github.com/AbrarNoob/android_vendor_xiaomi_lavender-S -b twelve vendor/xiaomi/lavender
+      git clone https://github.com/AbrarNoob/device_xiaomi_lavender-S -b ancient device/xiaomi/lavender
+      #git clone https://github.com/AbrarNoob/android_vendor_xiaomi_lavender-S -b twelve vendor/xiaomi/lavender
       #git clone https://github.com/MukulSharma06175/kernel-xiaomi-lavender -b main kernel/xiaomi/lavender
