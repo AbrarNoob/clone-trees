@@ -13,7 +13,7 @@
    #replace source files
       #rm -rf vendor/octavi
        rm -rf system/sepolicy
-      rm -rf prebuilts/clang/host/linux-x86/clang-proton
+      #rm -rf prebuilts/clang/host/linux-x86/clang-proton
       #rm -rf packages/apps/Dialer
       #rm -rf frameworks/base
       #rm -rf external/ant-wireless/antradio-library  
@@ -24,7 +24,7 @@
       #git clone https://github.com/ArrowOS/android_external_ant-wireless_antradio-library -b arrow-12.0 external/ant-wireless/antradio-library
 
    #clone_clang
-     git clone https://github.com/kdrag0n/proton-clang -b master prebuilts/clang/host/linux-x86/clang-proton --depth=1
+     #git clone https://github.com/kdrag0n/proton-clang -b master prebuilts/clang/host/linux-x86/clang-proton --depth=1
 
    #clone_HALS
      #git clone https://github.com/AbrarNoob/android_hardware_qcom_media -b 12 hardware/qcom-caf/msm8998/media
