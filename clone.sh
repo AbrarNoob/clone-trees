@@ -11,6 +11,7 @@
       #rm -rf kernel/xiaomi/lavender
 
    #replace source files
+        rm -rf frameworks/base
       #rm -rf vendor/octavi
        #rm -rf system/sepolicy
       #rm -rf prebuilts/clang/host/linux-x86/clang-proton
@@ -19,6 +20,7 @@
       #rm -rf external/ant-wireless/antradio-library  
 
    #clone files
+       git clone https://github.com/Octavi-OS/platform_frameworks_base -b 12 frameworks/base
       #git clone https://github.com/AbrarNoob/platform_system_sepolicy -b test system/sepolicy
       #git clone https://github.com/AbrarNoob/vendor_octavi -b 12.1 vendor/octavi
       #git clone https://github.com/ArrowOS/android_external_ant-wireless_antradio-library -b arrow-12.0 external/ant-wireless/antradio-library
