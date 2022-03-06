@@ -18,7 +18,7 @@
        #rm -rf prebuilts/clang/host/linux-x86/clang-proton
       #rm -rf packages/apps/Dialer
       #rm -rf frameworks/base
-      #rm -rf external/ant-wireless/antradio-library  
+      rm -rf external/ant-wireless/antradio-library  
 
    #clone files
        #git clone https://github.com/LESSAOSP/build_soong -b twelve build/soong
