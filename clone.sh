@@ -40,6 +40,6 @@
       #git clone https://github.com/ancient-devices/kernel_xiaomi_lavender -b twelve kernel/xiaomi/lavender
 
    #misc
-      #export SELINUX_IGNORE_NEVERALLOWS=true
+      export SELINUX_IGNORE_NEVERALLOWS=true
        export SKIP_ABI_CHECKS=true
       export BUILD_WITH_LAWNCHAIR=true
