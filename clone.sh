@@ -41,4 +41,5 @@
 
    #misc
       #export SELINUX_IGNORE_NEVERALLOWS=true
+       export SKIP_ABI_CHECKS=true
       export BUILD_WITH_LAWNCHAIR=true
