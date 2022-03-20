@@ -26,7 +26,7 @@
       #git clone https://github.com/ArrowOS/android_external_ant-wireless_antradio-library -b arrow-12.0 external/ant-wireless/antradio-library
 
    #clone_clang
-     git clone https://github.com/kdrag0n/proton-clang -b master prebuilts/clang/host/linux-x86/clang-proton --depth=1
+     #git clone https://github.com/kdrag0n/proton-clang -b master prebuilts/clang/host/linux-x86/clang-proton --depth=1
 
    #clone_HALS
      #git clone https://github.com/AbrarNoob/android_hardware_qcom_media -b 12 hardware/qcom-caf/msm8998/media
@@ -35,9 +35,9 @@
     
    
    #clone_trees
-      git clone https://github.com/AbrarNoob/device_xiaomi_lavender-1 -b nad device/xiaomi/lavender
+      git clone https://github.com/AbrarNoob/device_xiaomi_lavender-1 -b rr device/xiaomi/lavender
       git clone https://github.com/AbrarNoob/vendor_xiaomi_lavender-1 -b xq vendor/xiaomi/lavender
-      git clone https://github.com/AbrarNoob/android_kernel_xiaomi_lavender-LTO -b eas kernel/xiaomi/lavender
+      #git clone https://github.com/AbrarNoob/android_kernel_xiaomi_lavender-LTO -b eas kernel/xiaomi/lavender
 
    #misc
       #export FORCE_LAWNCHAIR=true
