@@ -14,7 +14,7 @@
         #rm -rf frameworks/base
       #rm -rf vendor/octavi
        #rm -rf system/sepolicy
-      #rm -rf prebuilts/clang/host/linux-x86/clang-proton
+      rm -rf prebuilts/clang/host/linux-x86/clang-proton
       #rm -rf packages/apps/Dialer
       #rm -rf frameworks/base
       #rm -rf external/ant-wireless/antradio-library  
