@@ -40,4 +40,5 @@
       #git clone https://github.com/ancient-devices/kernel_xiaomi_lavender -b twelve kernel/xiaomi/lavender
 
    #misc
+      export PALLADIUM_BUILD_VARIANT=GAPPS
       #export FORCE_LAWNCHAIR=true
